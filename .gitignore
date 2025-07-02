@@ -1,0 +1,3 @@
+backend/services/groq_api.py
+backend/services/secret_key.py
+backend/.venv

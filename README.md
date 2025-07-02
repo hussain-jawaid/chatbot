@@ -39,7 +39,7 @@ McCarthy.ai is a full-stack chatbot application built with modern web technologi
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/hussain-jawaid/mccarthy-ai.git
+git clone https://github.com/hussain-jawaid/chatbot.git
 cd mccarthy-ai
 
 cd backend

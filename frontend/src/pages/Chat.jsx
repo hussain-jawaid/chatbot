@@ -129,6 +129,8 @@ function Chat() {
 
     // 4. Prepare history in Groq format
     const ChatHistory = [
+      {sender: "user", content: "Your name is McCarthy!"},
+      {sender: "bot", content: "That's sounds great, my name is McCarthy."},
       ...messages,
       { sender: "user", content: inputVal },
     ].map((msg) => ({

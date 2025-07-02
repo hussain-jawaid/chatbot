@@ -5,7 +5,6 @@ from fastapi.security import OAuth2PasswordBearer
 from services.secret_key import SECRET_KEY
 
 
-SECRET_KEY = SECRET_KEY
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 60
 

@@ -5,6 +5,7 @@ import { IoIosAdd } from "react-icons/io";
 import { FaArrowUp } from "react-icons/fa";
 import { marked } from "marked";
 import DOMPurify from "dompurify";
+import { Link } from "react-router-dom";
 
 export async function fetchWithAuth(url, options = {}) {
   const token = localStorage.getItem("token");
@@ -222,9 +223,9 @@ function Chat() {
           <div className="h-full overflow-hidden px-4">
             {/* Top Bar */}
             <div className="flex items-center justify-between">
-              <span className="w-[15%]">
+              <Link to="/chat" className="w-[15%]">
                 <img src="favicon.png" alt="" className="w-full object-cover" />
-              </span>
+              </Link>
               <button
                 className="rounded-lg px-2 py-2 hover:bg-[#444444]"
                 onClick={() => setSidebarOpen(false)}
